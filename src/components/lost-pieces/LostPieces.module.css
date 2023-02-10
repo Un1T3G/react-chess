@@ -1,0 +1,37 @@
+.lost_pieces {
+  display: flex;
+  max-width: 250px;
+  width: 200%;
+  flex-direction: column;
+}
+
+.lost_pieces__column {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.lost_pieces__column:last-child{
+    margin-bottom: 0;
+}
+
+.lost_pieces__label {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.lost_pieces__item {
+  display: flex;
+  align-items: center;
+}
+
+.lost_pieces__item img {
+  width: 18px;
+  height: auto;
+  margin-right: 2.5px;
+}
+
+.lost_pieces__item name {
+  font-size: 12px;
+  font-weight: 400;
+}

@@ -1,0 +1,4 @@
+export enum ChessEventType {
+  PIECE_MOVED = 'PIECE_MOVED',
+  PIECE_DESTROYED = 'PIECE_DESTROYED',
+}

@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  min-height: 100vh;
+}
+
+.app__row {
+  display: flex;
+  max-width: 665px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.app__block{
+  margin-right: 15px;
+}

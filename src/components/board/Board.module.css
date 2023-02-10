@@ -1,0 +1,40 @@
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 12.5%;
+}
+
+.cell_white{
+    background-color: #fff3e0;
+}
+
+.cell_black{
+    background-color: #546e7a;
+}
+
+.cell_selected{
+    background-color: #e57373;
+}
+
+.cell_white.cell_available{
+    background-color: #81c784;
+}
+
+.cell_black.cell_available{
+    background-color: #4caf50;
+}
+
+.cell img{
+    width: 80%;
+    height: 80%;
+}
