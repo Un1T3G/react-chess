@@ -4,7 +4,7 @@ import { Piece } from '../piece'
 import { PieceType } from '../../types/pieceType'
 
 export class PawnPiece extends Piece {
-  private _isFirstStep: boolean = false
+  private _isFirstStep: boolean = true
 
   public get type(): PieceType {
     return PieceType.PAWN
@@ -38,6 +38,6 @@ export class PawnPiece extends Piece {
 
   moveFigure(target: Cell): void {
     super.moveFigure(target)
-    this._isFirstStep = true
+    this._isFirstStep = false
   }
 }
